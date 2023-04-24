@@ -21,9 +21,9 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
-@app.route("/imgtopdf")
+@app.route('/imgtopdf')
 def imgtopdf():
-    return render_template("imgtopdf.html")
+    return render_template('imgtopdf.html')
 
 @app.route('/upload', methods=['POST'])
 def upload():
