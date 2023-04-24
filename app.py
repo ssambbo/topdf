@@ -1,7 +1,7 @@
 import os
 from flask import Flask, render_template, request, send_from_directory
 from PIL import Image
-from fpdf import FPDF
+# from fpdf import FPDF
 
 app = Flask(__name__)
 
